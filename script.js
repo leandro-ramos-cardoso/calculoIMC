@@ -16,7 +16,7 @@ function calculoIMC(){
         // Exibe uma mensagem de erro mais visível na área de resultado
         res.style.background = '#FF3333';
         res.style.color = 'white';
-        res.style.borderRadius = '15px';
+        res.style.borderRadius = '20px';
         res.style.padding = '10px';
         res.style.marginBottom = '20px';
         res.style.width = '300px';
@@ -37,9 +37,9 @@ function calculoIMC(){
     
     } else if (imc < 18.5) {
         foto.src = 'foto-abaixoPeso.webp';
-        res.style.background = 'coral';
+        res.style.background = '#FEE2E2';
         res.style.color = 'black';
-        res.style.borderRadius = '15px';
+        res.style.borderRadius = '20px';
         res.style.padding = '5px'
         res.style.marginBottom = '15px';
         res.style.width = '300px';
@@ -52,9 +52,9 @@ function calculoIMC(){
         `;
     } else if (imc >= 18.5 && imc < 24.9) {
         foto.src = 'foto-pesoNormal.jpg';
-        res.style.background = '#32CD32';
+        res.style.background = '#D1FAE5';
         res.style.color = '#000000';
-        res.style.borderRadius = '15px';
+        res.style.borderRadius = '20px';
         res.style.padding = '5px'
         res.style.marginBottom = '15px';
         res.style.width = '300px';
@@ -67,9 +67,9 @@ function calculoIMC(){
         `
     } else if (imc >= 24.9 && imc < 29.9) {
         foto.src = 'foto-sobrepeso.webp';
-        res.style.background = '#FFD700';
+        res.style.background = '#FEF9C3';
         res.style.color = '#000';
-        res.style.borderRadius = '15px';
+        res.style.borderRadius = '20px';
         res.style.padding = '5px'
         res.style.marginBottom = '15px';
         res.style.width = '300px';
@@ -82,9 +82,9 @@ function calculoIMC(){
         `
     } else if (imc >= 29.9 && imc < 34.9) {
         foto.src = 'foto-obesidade1.webp';
-        res.style.background = 'orange';
+        res.style.background = '#FFE4B5';
         res.style.color = '#000';
-        res.style.borderRadius = '15px';
+        res.style.borderRadius = '20px';
         res.style.padding = '5px'
         res.style.marginBottom = '15px';
         res.style.width = '300px';
@@ -99,7 +99,7 @@ function calculoIMC(){
         foto.src = 'foto-obesidade2.webp';
         res.style.background = '#FF8C00';
         res.style.color = '#000';
-        res.style.borderRadius = '15px';
+        res.style.borderRadius = '20px';
         res.style.padding = '5px'
         res.style.marginBottom = '15px';
         res.style.width = '300px';
@@ -114,7 +114,7 @@ function calculoIMC(){
         foto.src = 'foto-obesidade3.webp';
         res.style.background = '#FF4500';
         res.style.color = 'black';
-        res.style.borderRadius = '15px';
+        res.style.borderRadius = '20px';
         res.style.padding = '5px'
         res.style.marginBottom = '15px';
         res.style.width = '300px';

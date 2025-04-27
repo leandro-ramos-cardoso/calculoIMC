@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    --background-color: gray;
-    background: linear-gradient(#F0F0F0, #D3D3D3);
+    background-color: #F9FAFB;
     font: normal 15pt Montserrat;
     display: flex;
     flex-direction: column;
@@ -29,8 +28,10 @@ header {
 
 section {
     --background-color: rgb(66, 66, 66);
-    background: linear-gradient(#333333, #555555);
+    --background: linear-gradient(#333333, #555555);
+    background-color: #FFFFFF;
     width: 500px;
+    height: 795px;
     padding: 15px;
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
@@ -43,7 +44,7 @@ footer {
 }
 
 span {
-    color: #fff;
+    color: #374151;
 }
 
 #foto {
@@ -57,6 +58,7 @@ span {
     margin: 0 auto;
 }
 
+
 #txtaltura, #txtpeso {
     margin-top: 10px;
     margin-bottom: 15px;
@@ -66,11 +68,16 @@ span {
     border-radius: 15px;
     border: none;
     font-size: 15px;
-    border: #A0AEC0 2px solid;
+    border: #D1D5DB 2px solid;
 }
 
 input[type="number"] {
     padding: 5px;
+}
+
+input:focus {
+    --outline: none; /* remove o contorno padrão */
+    outline: 2px solid #10B981; /* coloca sua borda azul */
 }
 
 .title {
@@ -82,12 +89,12 @@ input[type="number"] {
     padding: 10px;
     --background-color: yellowgreen;
     --background-color: #4CAF50;
-    background-color: #68D391;
-    color: #000;
+    background-color: #10B981;
+    color: #fff;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    width: 150px;
+    width: 180px;
     font-size: 15px;
     margin-bottom: 30px;
     transition: 0.3s;
@@ -102,6 +109,7 @@ input[type="number"] {
     margin-top: 10px;
     padding: 10px;
     background-color: #90CDF4;
+    color: #fff;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -116,9 +124,9 @@ input[type="number"] {
     color: white;
 }
 
-
-
-.direitos {
-    color: #A0AEC0;
-    font: italic 13pt Arial;
+section .direitos p{
+    color: #374151;
+    font-style: italic;
+    font-size: 10pt;
 }
+
